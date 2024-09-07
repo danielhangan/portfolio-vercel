@@ -1,3 +1,11 @@
+# TODO
+
+- [ ] add projects sections
+- [ ] add favicon
+- [ ] add tech used section
+- [ ] add next theme change section
+- [ ] add freelance availability (cal.com)
+
 # Portfolio Blog Starter
 
 This is a porfolio site template complete with a blog. Includes:
