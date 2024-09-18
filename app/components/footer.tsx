@@ -1,4 +1,4 @@
-import Icon, { IconProps } from "./icon";
+import { Icon, IconProps } from "./icon";
 
 type SocialType = {
   id: string;
