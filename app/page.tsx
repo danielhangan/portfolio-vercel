@@ -1,4 +1,6 @@
 import { BlogPosts } from "app/components/posts";
+import { WorkHistory } from "./components/work-history";
+import { ProjectShowcase } from "./components/projects";
 
 export default function Page() {
   return (
@@ -11,8 +13,10 @@ export default function Page() {
           @azizmorsly
         </a>
       </p>
-      <div className="my-8">
+      <div className="flex flex-col my-8 gap-y-8">
         <BlogPosts />
+        <WorkHistory />
+        <ProjectShowcase />
       </div>
     </section>
   );

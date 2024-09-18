@@ -1,0 +1,23 @@
+[
+  {
+    "name": "heyTrain",
+    "description": "AI-Powered learning academies for corporates",
+    "techStack": ["LangChain", "Next.js", "Postgres"],
+    "link": "https://heytrain.com",
+    "year": 2023
+  },
+  {
+    "name": "Interlinked",
+    "description": "Data-Driven VC platform",
+    "techStack": ["Next.js", "FastAPI", "GCP"],
+    "link": "https://tryinterlinked.com",
+    "year": 2023
+  },
+  {
+    "name": "PayA",
+    "description": "Infrastructure Layer connecting traditional banking system with crypto",
+    "techStack": ["React", "Firebase", "Express.js", "Stellar"],
+    "link": "/",
+    "year": 2021
+  }
+]

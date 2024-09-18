@@ -1,0 +1,26 @@
+[
+  {
+    "company": "Imogen Heap",
+    "title": "Lead Backend Engineer",
+    "startYear": 2024,
+    "endYear": "Present",
+    "companyWebsite": "https://www.imogenheap.com",
+    "description": "Developing innovative backend solutions for music technology projects."
+  },
+  {
+    "company": "Interlinked",
+    "title": "Founder",
+    "startYear": 2022,
+    "endYear": 2023,
+    "companyWebsite": "https://www.tryinterlinked.com",
+    "description": "VC deal sourcing powered by vector search"
+  },
+  {
+    "company": "Radicle Insights",
+    "title": "Senior Software Engineer",
+    "startYear": 2021,
+    "endYear": 2024,
+    "companyWebsite": "https://www.radicleinsights.com",
+    "description": "Led development of data analytics platforms and machine learning solutions"
+  }
+]
