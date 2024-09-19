@@ -1,10 +1,11 @@
-import { Icon, IconProps } from "./icon";
+import Icon from "./icon";
 
 type SocialType = {
   id: string;
   label: string;
   url: string;
-  icon: IconProps["name"];
+  // icon: IconProps["name"];
+  icon: any;
 };
 
 const socials: SocialType[] = [
