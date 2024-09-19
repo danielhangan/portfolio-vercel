@@ -1,4 +1,4 @@
-import Icon from "./icon";
+// import Icon from "./icon";
 
 type SocialType = {
   id: string;
@@ -49,7 +49,8 @@ export default function Footer() {
                 target="_blank"
                 href={social.url}
               >
-                <Icon name={social.icon} size={24} />
+                <p>{social.label}</p>
+                {/* <Icon name={social.icon} size={24} /> */}
               </a>
             </li>
           ))}
