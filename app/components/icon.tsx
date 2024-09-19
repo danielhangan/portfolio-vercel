@@ -13,4 +13,5 @@ const Icon = ({ name, ...props }: IconProps) => {
   return <LucideIcon {...props} />;
 };
 
+export { Icon };
 export default Icon;
