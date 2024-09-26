@@ -42,7 +42,7 @@ export default function Footer() {
         <p>Find me on</p>
         <ul className="font-sm flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
           {socials.map((social) => (
-            <li key={social.id} tw="group">
+            <li key={social.id}>
               <a
                 className="flex  justify-start items-center gap-x-2 transition-all"
                 rel="noopener noreferrer"
