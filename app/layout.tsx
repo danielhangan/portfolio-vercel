@@ -7,6 +7,8 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "./components/footer";
 import { baseUrl } from "./sitemap";
+import localFont from "next/font/local";
+import clsx from "clsx";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -46,13 +48,15 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cx(
-        "text-black bg-white dark:text-white dark:bg-black",
-        GeistSans.variable,
-        GeistMono.variable
-      )}
+      className="text-black bg-white dark:text-white dark:bg-black"
     >
-      <body className="max-w-3xl mx-4 mt-8 font-mono antialiased lg:mx-auto">
+      <body
+        className={clsx(
+          GeistSans.variable,
+          GeistMono.variable,
+          "max-w-3xl mx-4 mt-8 font-mono antialiased lg:mx-auto"
+        )}
+      >
         <main className="flex flex-col flex-auto min-w-0 px-2 mt-6 md:px-0">
           <Navbar />
           {children}
