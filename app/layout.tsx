@@ -7,7 +7,6 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "./components/footer";
 import { baseUrl } from "./sitemap";
-import localFont from "next/font/local";
 import clsx from "clsx";
 
 export const metadata: Metadata = {
@@ -21,7 +20,7 @@ export const metadata: Metadata = {
     title: "Daniel Hangan - Full'stack dev",
     description: "Daniel Hangan - Full'stack dev",
     url: baseUrl,
-    siteName: "My Portfolio",
+    siteName: "Daniel Hangan",
     locale: "en_US",
     type: "website",
   },
@@ -48,16 +47,14 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="text-black bg-white dark:text-white dark:bg-black"
+      className={clsx(
+        GeistSans.variable,
+        GeistMono.variable,
+        "text-black bg-white dark:text-white dark:bg-black"
+      )}
     >
-      <body
-        className={clsx(
-          GeistSans.variable,
-          GeistMono.variable,
-          "max-w-3xl mx-4 mt-8 font-mono antialiased lg:mx-auto"
-        )}
-      >
-        <main className="flex flex-col flex-auto min-w-0 px-2 mt-6 md:px-0">
+      <body className="max-w-3xl mx-4 mt-8 antialiased lg:mx-auto">
+        <main className="flex flex-col flex-auto min-w-0 px-2 mt-6 font-mono md:px-0">
           <Navbar />
           {children}
           <Footer />
