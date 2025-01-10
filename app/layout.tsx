@@ -53,11 +53,10 @@ export default function RootLayout({
         "text-black bg-white dark:text-white dark:bg-black"
       )}
     >
-      <body className="max-w-3xl mx-4 mt-8 antialiased lg:mx-auto">
-        <main className="flex flex-col flex-auto min-w-0 px-2 mt-6 font-mono md:px-0">
-          <Navbar />
+      <body className="">
+        <main className="flex flex-col flex-auto min-w-0 px-2 font-sans md:px-0">
           {children}
-          <Footer />
+          {/* <Footer /> */}
           <Analytics />
           <SpeedInsights />
         </main>
