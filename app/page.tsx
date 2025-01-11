@@ -69,7 +69,7 @@ export default function Page() {
         <Section title="CURRENTLY">
           <ListItem>
             Founder at <a href="https://www.foresthire.com" className="text-white hover:text-gray-300">Foresthire</a>, 
-            the HR Agent loved by recruiters.
+            automating early stage recruiting for startups.
           </ListItem>
           <ListItem>
             Lead Software Engineer at <a href="https://auracles.io" className="text-white hover:text-gray-300">Auracles</a>, 
@@ -86,18 +86,17 @@ export default function Page() {
         {/* Background Section */}
         <Section title="BACKGROUND">
           <ListItem>
-            Earned a bachelor's in business and self-taught software engineer.
+            Earned a bachelor's degree in business.
           </ListItem>
           <ListItem>
-            Worked in finance and consulting for 2 years. Transitioned to software engineering for flexibility and innovation.
+            After working for 2 years in the finance industry, I transitioned to software engineering.
           </ListItem>
           <ListItem>
-            Built 4 startups, sold 1 to 
-            <strong> CB Insights.</strong>
+            Built 4 startups, sold 1 to <strong>CB Insights</strong>.
           </ListItem>
           <ListItem>
-            Founded Foresthire in 2024, <a href="https://www.foresthire.com/">Foresthire</a>,
-            the HR Agent loved by recruiters.
+            Founded <a href="https://www.foresthire.com/">Foresthire</a> in 2024, 
+            the recruitment automation loved by founders.
           </ListItem>
         </Section>
 
