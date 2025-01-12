@@ -50,7 +50,7 @@ export default function RootLayout({
       className={clsx(
         GeistSans.variable,
         GeistMono.variable,
-        "text-black bg-white dark:text-white dark:bg-black"
+        "dark text-white bg-black"
       )}
     >
       <body className="">

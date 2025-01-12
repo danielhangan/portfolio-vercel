@@ -1,10 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { BlogPosts } from "app/components/posts";
-import { WorkHistory } from "./components/work-history";
-import { ProjectShowcase } from "./components/projects";
-import { Suspense } from 'react';
 import Image from 'next/image';
 
 const fadeIn = {
@@ -79,7 +75,7 @@ export default function Page() {
             Passionate about startups, design, security and the future of work.
           </ListItem>
           <ListItem>
-            Based in Lisbon. Into Surfing, jiujitsu, and coffee.
+            Based in Lisbon. Into surfing, jiu-jitsu, and coffee.
           </ListItem>
         </Section>
 
@@ -89,7 +85,7 @@ export default function Page() {
             Earned a bachelor's degree in business.
           </ListItem>
           <ListItem>
-            After working for 2 years in the finance industry, I transitioned to software engineering.
+            After working for two years in finance, I transitioned into software engineering.
           </ListItem>
           <ListItem>
             Built 4 startups, sold 1 to <strong>CB Insights</strong>.
