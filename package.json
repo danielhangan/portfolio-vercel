@@ -3,9 +3,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "build:cloudflare": "npx @cloudflare/next-on-pages",
+    "deploy": "pnpm run build:cloudflare && wrangler deploy --env=\"\""
   },
   "dependencies": {
+    "@cloudflare/next-on-pages": "^1.13.16",
     "@next/font": "^14.2.13",
     "@tailwindcss/postcss": "4.0.0-alpha.13",
     "@types/node": "20.11.17",
