@@ -1,0 +1,52 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/webpack-dfc6b381a564f79e.js",
+      "static/chunks/9a79c14c-b68828997095a7d2.js",
+      "static/chunks/737-ddc44e8eadbf4952.js",
+      "static/chunks/main-app-76e50f4371009ac3.js",
+      "static/chunks/457-e456bc23e7da3041.js",
+      "static/chunks/804-e49436025fa46cf3.js",
+      "static/chunks/app/page-3e774efed97139ca.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-dfc6b381a564f79e.js",
+      "static/chunks/9a79c14c-b68828997095a7d2.js",
+      "static/chunks/737-ddc44e8eadbf4952.js",
+      "static/chunks/main-app-76e50f4371009ac3.js",
+      "static/css/c6b5fe828f4126df.css",
+      "static/chunks/app/layout-8c9b76b5a9461088.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack-dfc6b381a564f79e.js",
+      "static/chunks/9a79c14c-b68828997095a7d2.js",
+      "static/chunks/737-ddc44e8eadbf4952.js",
+      "static/chunks/main-app-76e50f4371009ac3.js",
+      "static/chunks/app/not-found-922be8486d9c3499.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack-dfc6b381a564f79e.js",
+      "static/chunks/9a79c14c-b68828997095a7d2.js",
+      "static/chunks/737-ddc44e8eadbf4952.js",
+      "static/chunks/main-app-76e50f4371009ac3.js",
+      "static/chunks/app/_not-found/page-29f95deff98c6b1d.js"
+    ],
+    "/blog/page": [
+      "static/chunks/webpack-dfc6b381a564f79e.js",
+      "static/chunks/9a79c14c-b68828997095a7d2.js",
+      "static/chunks/737-ddc44e8eadbf4952.js",
+      "static/chunks/main-app-76e50f4371009ac3.js",
+      "static/chunks/107-ef75e6b157e970f4.js",
+      "static/chunks/app/blog/page-670e863c0f6ff7ab.js"
+    ],
+    "/blog/[slug]/page": [
+      "static/chunks/webpack-dfc6b381a564f79e.js",
+      "static/chunks/9a79c14c-b68828997095a7d2.js",
+      "static/chunks/737-ddc44e8eadbf4952.js",
+      "static/chunks/main-app-76e50f4371009ac3.js",
+      "static/chunks/107-ef75e6b157e970f4.js",
+      "static/chunks/457-e456bc23e7da3041.js",
+      "static/chunks/app/blog/[slug]/page-63326e4660e4e72b.js"
+    ]
+  }
+}

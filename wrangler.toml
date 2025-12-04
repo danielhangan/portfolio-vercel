@@ -1,11 +1,8 @@
+main = ".open-next/worker.js"
 name = "portfolio"
-compatibility_date = "2024-12-04"
+compatibility_date = "2025-03-25"
+compatibility_flags = ["nodejs_compat"]
 account_id = "542df35b96adc815bb206346b0353c5a"
-
-main = ".vercel/output/static/_worker.js/index.js"
-
-[env.production]
-name = "portfolio"
-
-[env.preview]
-name = "portfolio-preview"
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
