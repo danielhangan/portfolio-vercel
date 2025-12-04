@@ -5,7 +5,7 @@
     "build": "next build",
     "start": "next start",
     "build:cloudflare": "npx @cloudflare/next-on-pages",
-    "deploy": "pnpm run build:cloudflare && wrangler deploy --env=\"\""
+    "deploy": "pnpm run build:cloudflare && pnpm exec wrangler deploy --env=\"\""
   },
   "dependencies": {
     "@cloudflare/next-on-pages": "^1.13.16",
