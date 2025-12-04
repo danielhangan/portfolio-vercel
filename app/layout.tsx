@@ -12,15 +12,15 @@ import clsx from "clsx";
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Daniel Hangan - Full'stack dev",
-    template: "%s | Daniel Hangan - Full'stack dev",
+    default: "Dan Hangan - Growth Engineer & Founder of dansugc",
+    template: "%s | Dan Hangan - Growth Engineer & Founder",
   },
-  description: "Welcome to my portfolio.",
+    description: "Growth engineer hacking virality for consumer apps with UGC. Building tools that help creators break through the noise and scale their reach.",
   openGraph: {
-    title: "Daniel Hangan - Full'stack dev",
-    description: "Daniel Hangan - Full'stack dev",
+    title: "Dan Hangan - Growth Engineer & Founder of dansugc",
+  description: "Growth engineer hacking virality for consumer apps with UGC. Building tools that help creators break through the noise and scale their reach.",
     url: baseUrl,
-    siteName: "Daniel Hangan",
+    siteName: "Dan Hangan",
     locale: "en_US",
     type: "website",
   },
@@ -50,7 +50,7 @@ export default function RootLayout({
       className={clsx(
         GeistSans.variable,
         GeistMono.variable,
-        "dark text-white bg-black"
+        "text-gray-900 bg-white"
       )}
     >
       <body className="">

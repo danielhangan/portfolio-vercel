@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --background: #111827;
-  --text-primary: #F3F4F6;
-  --text-secondary: #9CA3AF;
+  --background: #FFFFFF;
+  --text-primary: #111827;
+  --text-secondary: #6B7280;
   --accent: #3B82F6;
   --sh-class: #4c97f8;
-  --sh-identifier: white;
+  --sh-identifier: #111827;
   --sh-keyword: #f47067;
   --sh-string: #0fa295;
   --sh-comment: #a19595;
@@ -19,15 +19,15 @@
   color: var(--text-primary);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --sh-class: #4c97f8;
-    --sh-identifier: white;
+    --sh-identifier: #111827;
     --sh-keyword: #f47067;
     --sh-string: #0fa295;
   }
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
 }
 

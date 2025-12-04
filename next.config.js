@@ -2,6 +2,9 @@
 
 const nextConfig = {
   transpilePackages: ["geist"],
+  images: {
+    unoptimized: true,
+  },
   async headers() {
     return [
       {
