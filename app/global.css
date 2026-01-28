@@ -1,43 +1,35 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FFFFFF;
-  --text-primary: #111827;
-  --text-secondary: #6B7280;
-  --accent: #3B82F6;
+  --background: #0a0a0a;
+  --text-primary: #fafafa;
+  --text-secondary: #a3a3a3;
+  --accent: #34d399;
   --sh-class: #4c97f8;
-  --sh-identifier: #111827;
+  --sh-identifier: #fafafa;
   --sh-keyword: #f47067;
   --sh-string: #0fa295;
-  --sh-comment: #a19595;
+  --sh-comment: #525252;
   --sh-jsxliterals: #6266d1;
   --sh-property: #e25a1c;
   --sh-entity: #e25a1c;
 }
 
 ::selection {
-  color: var(--text-primary);
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --sh-class: #4c97f8;
-    --sh-identifier: #111827;
-    --sh-keyword: #f47067;
-    --sh-string: #0fa295;
-  }
-  html {
-    color-scheme: light;
-  }
+  background-color: rgba(52, 211, 153, 0.2);
+  color: #34d399;
 }
 
 html {
   min-width: 360px;
   color: var(--text-primary);
+  background-color: var(--background);
+  color-scheme: dark;
 }
 
 body {
   color: var(--text-primary);
+  background-color: var(--background);
 }
 
 a {
@@ -47,7 +39,7 @@ a {
 }
 
 a:hover {
-  color: #60A5FA;
+  color: #6ee7b7;
 }
 
 .prose {
@@ -75,11 +67,11 @@ a:hover {
 }
 
 .prose a:hover {
-  color: #60A5FA;
+  color: #6ee7b7;
 }
 
 .prose .anchor:after {
-  @apply text-neutral-300 dark:text-neutral-700;
+  color: #525252;
   content: "#";
 }
 
@@ -88,17 +80,21 @@ a:hover {
 }
 
 .prose pre {
-  @apply px-3 py-2 overflow-x-auto border rounded-lg bg-neutral-50 dark:bg-neutral-900 border-neutral-200 dark:border-neutral-900;
+  @apply px-3 py-2 overflow-x-auto border rounded-lg;
+  background-color: #171717;
+  border-color: #262626;
 }
 
 .prose code {
   @apply px-1 py-0.5 rounded-lg;
+  background-color: #262626;
 }
 
 .prose pre code {
   @apply p-0;
   border: initial;
   line-height: 1.5;
+  background-color: transparent;
 }
 
 .prose code span {
