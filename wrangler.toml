@@ -1,5 +1,5 @@
 main = ".open-next/worker.js"
-name = "portfolio"
+name = "portfolio-vercel"
 compatibility_date = "2025-03-25"
 compatibility_flags = ["nodejs_compat"]
 account_id = "542df35b96adc815bb206346b0353c5a"
